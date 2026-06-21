@@ -1,0 +1,63 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# =========================
+# Raw Datasets (Large Files)
+# =========================
+data/raw/
+data/raw/cpcb/
+data/raw/era5/
+data/raw/firms/
+data/raw/tropomi/
+
+# Intermediate Processing Files
+data/processed/
+
+# Generated Outputs
+outputs/maps/
+outputs/figures/
+
+# Logs
+*.log
+
+# =========================
+# Model Training Artifacts
+# =========================
+*.h5
+*.keras
+*.pth
+*.pt
+
+# Keep final models
+!models/pm25_xgboost_final.pkl
+!models/features_final.pkl
+
+# =========================
+# Keep Final Submission Data
+# =========================
+!data/Final_Surface_AQI_Dataset_2024.csv
+!data/Final_MultiPollutant_Dataset_2024.csv
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
