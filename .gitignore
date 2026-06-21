@@ -43,7 +43,6 @@ outputs/figures/
 # Model Training Artifacts
 # =========================
 *.h5
-*.keras
 *.pth
 *.pt
 
